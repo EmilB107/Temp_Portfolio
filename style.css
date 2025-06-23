@@ -268,9 +268,15 @@ section {
 }
 
 .about-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
+  max-width: 80%;
+  overflow: hidden;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  margin: 0 auto;
 }
 
 .about-details-container {
@@ -331,6 +337,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 2rem;
 }
 
 .article-container {
